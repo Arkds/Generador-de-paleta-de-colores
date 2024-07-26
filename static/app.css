@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.color {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  transition: 0.2s opacity;
+}
+
+.color:active {
+  opacity: 0.8;
+}
+
+.color span {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+#form {
+  margin-bottom: 50px;
+}
+
+#form input[type="text"] {
+  font-size: 1.5rem;
+  outline: 0;
+  border: 2px solid white;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 400px;
+}
+
+.btn {
+  background-color: #4caf50;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid white;
+  transition: 0.2s opacity;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
